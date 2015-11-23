@@ -63,7 +63,6 @@ class UserInfoCell: UITableViewCell {
     self.addSubview(nameLabel)
     nameLabel.font = UIFont(name: "Heiti SC", size: 15)
     nameLabel.sizeToFit()
-    nameLabel.text = "张全蛋"
     
     nameLabel.snp_makeConstraints { (make) -> Void in
       make.bottom.equalTo(iconImageView)
@@ -83,7 +82,6 @@ class UserInfoCell: UITableViewCell {
     self.addSubview(poneLabel)
     poneLabel.font = UIFont(name: "Heiti SC", size: 15)
     poneLabel.sizeToFit()
-    poneLabel.text = "15168685466"
     
     poneLabel.snp_makeConstraints { (make) -> Void in
       make.trailing.equalTo(hintImageView.snp_leading).offset(-10)
@@ -103,7 +101,6 @@ class UserInfoCell: UITableViewCell {
     self.addSubview(addressLabel)
     addressLabel.font = UIFont(name: "Heiti SC", size: 12)
     addressLabel.numberOfLines = 0
-    addressLabel.text = "赣州市 赣县 赣新大道上林春天 什么屯，多少好，巴拉拉巴拉"
     
     addressLabel.snp_makeConstraints { (make) -> Void in
       make.leading.equalTo(addressImageView.snp_trailing).offset(3)

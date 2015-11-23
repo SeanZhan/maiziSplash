@@ -276,15 +276,8 @@
 		7FB9B1851BEB0CB2003A18CC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7FB9B1881BEB13DE003A18CC /* incomeCell.swift */,
+				7FD4F2D01C03006400D6B126 /* Cell */,
 				7F8A52DD1BEC481600363772 /* ClothesChooseBar.swift */,
-				7F81987D1BECBDD8007D74D1 /* ClothesCell.swift */,
-				7FD438BF1BF34D75006034BD /* MoreViewCell.swift */,
-				7F4CB7F51BF4ACC9009EEF43 /* OrderCell.swift */,
-				7FDAD1441BF96BA5008CEF6C /* TotalPriceCell.swift */,
-				7FD406A01BF722EE00E7F2A0 /* OpenCouponAndUserInfoCell.swift */,
-				7FD4069E1BF7216300E7F2A0 /* CouponCell.swift */,
-				7FD4069C1BF7208400E7F2A0 /* UserInfoCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -324,6 +317,21 @@
 				7F9FA5861BDB4A8A00C1EE48 /* STHeiti-Light.ttc */,
 			);
 			name = Font;
+			sourceTree = "<group>";
+		};
+		7FD4F2D01C03006400D6B126 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7F4CB7F51BF4ACC9009EEF43 /* OrderCell.swift */,
+				7F81987D1BECBDD8007D74D1 /* ClothesCell.swift */,
+				7FD438BF1BF34D75006034BD /* MoreViewCell.swift */,
+				7FB9B1881BEB13DE003A18CC /* incomeCell.swift */,
+				7FDAD1441BF96BA5008CEF6C /* TotalPriceCell.swift */,
+				7FD406A01BF722EE00E7F2A0 /* OpenCouponAndUserInfoCell.swift */,
+				7FD4069E1BF7216300E7F2A0 /* CouponCell.swift */,
+				7FD4069C1BF7208400E7F2A0 /* UserInfoCell.swift */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 		C5553C38FBD90E8B217FE0D1 /* Pods */ = {
