@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (3.0.1)
+  - CXCardView (1.0.0)
+  - RJImageLoader (0.3.0)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SnapKit (0.15.0)
+  - SwiftyJSON (2.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - CXCardView
+  - RJImageLoader
+  - SDWebImage
+  - SnapKit
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 2457e1b2e6c46bb05c3a598c542b7bfd08893775
+  CXCardView: 46aa5ef9daee36fd2d16197b757b3f97ca177ebd
+  RJImageLoader: f0d9edebeb7837feb0ce51759826900645770db7
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SnapKit: 4962eed2ee18e48cbd2b2292fffc57efe7235f87
+  SwiftyJSON: 8d6b61a70277ef2a5d710d372e06e7e2d87fb9e4
+
+COCOAPODS: 0.39.0
